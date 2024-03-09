@@ -1,0 +1,40 @@
+body.light-theme {
+    background-color: black;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    font-size: 2em;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Light grey, slightly transparent border */
+}
+
+h1 {
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Light grey, slightly transparent border */
+    padding-bottom: 10px;
+}
+
+
+input[type="text"], input[type="submit"] {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Light grey, slightly transparent border */
+    font-size: 1.5em;
+    padding: 5px;
+    color: white; /* Text color */
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+input[type="text"] {
+    background-color: white; /* Search emoji text field background color */
+}
